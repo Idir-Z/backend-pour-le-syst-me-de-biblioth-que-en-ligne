@@ -1,0 +1,23 @@
+POST http://localhost:3000/authors
+Content-Type: application/json
+
+{
+    "name": "aliii",
+    "birthDate": "2000-05-09",
+    "nationality": "algerian"
+}
+
+###
+GET http://localhost:3000/authors/3
+###
+GET http://localhost:3000/books
+###
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "kamal sutra",
+    "releaseDate": "2000-05-09",
+    "ISBN": "1048590",
+    "authorId": "18"
+}
